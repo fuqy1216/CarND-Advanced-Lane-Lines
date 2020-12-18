@@ -74,7 +74,7 @@ This resulted in the following source and destination points:
 | 246, 69      | 290, 720      | 
 | 594, 450     | 290, 0      |
 | 685, 450     | 990, 0      |
-| 1035, 670    | 990, 0      |
+| 1035, 670    | 990, 720      |
 
 I verified that my perspective transform was working as expected by drawing the `src` and `dst` points onto a test image and its warped counterpart to verify that the lines appear parallel in the warped image.
 
@@ -102,7 +102,7 @@ I implemented this step in the fifth code cell of the IPython notebookin the fun
 
 #### 1. Provide a link to your final video output.  Your pipeline should perform reasonably well on the entire project video (wobbly lines are ok but no catastrophic failures that would cause the car to drive off the road!).
 
-Here's this directory for my video result: ./output_images/FinalProcessedVideo.mp4
+Here's the link for my video result: [video link](./output_images/FinalProcessedVideo.mp4)
 
 ---
 
